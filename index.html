@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Cadrastro</h1>
+   <form id="contactForm"> 
+    <label for="nome">Nome</label>
+    <input id="nome" type="text" minlength="3" maxlength="15" required="true" placeholder="escreva aqui"/>
+
+    <label for="Sobrename">Sobrename</label>
+     <input id="Sobrename" type="text" minlength="3" required="true" placeholder="escreva aqui"/>
+
+     <label>email</label>
+     <input type="email" placeholder="digite seu email" id="email"/>
+
+     <label>Numero</label>
+     <input type="number" required="true" placeholder="seu numero" id="numero"/>
+
+     <div>
+     <label>Sexo</label>
+
+     <label for="masculino">Masculino</label>
+ 
+     <input type="radio" name="masculino" name="Sexo" id="masculino" value="masculino"/>
+
+     <label for="feminino">Feminino</label>
+    
+     <input type="radio" name="sexo" id="feminino" value="feminino"/>
+     
+     <div>
+     
+     <textarea name="mensagem" id="mensagem" cols="100" rows="25" ></textarea>
+
+     
+     <label>aceita os termos de conduta do site</label>
+     <input id="aceita os termos de conduta do site" type="checkbox" name="aceita os termos de conduta do site" value="aceita os termos de conduta do site"  />
+     <button type="submit">Enviar</button>
+    </form>
+
+    <script src="./script.js"></script>
+    </body>
+</html>
